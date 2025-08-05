@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 
 # Load model
-model = joblib.load("transfer_fee_model.pkl")
+model = joblib.load("transfer_fee_model_compressed.pkl")
 
 # Ollama config
 OLLAMA_API_URL = "http://localhost:11434/api/chat"
